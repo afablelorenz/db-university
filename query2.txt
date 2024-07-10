@@ -8,3 +8,7 @@ FROM teachers
 GROUP BY office_number;
 
 3.
+4. SELECT departments.name, COUNT(courses.id)
+FROM departments
+LEFT JOIN courses ON departments.id = courses.degree_id
+GROUP BY departments.name;
