@@ -11,6 +11,8 @@ FROM students
 WHERE YEAR(CURDATE()) - YEAR(date_of_birth) > 30;
 
 4.
+
+
 5.SELECT *
 FROM exams
 WHERE date = '2020-06-20' and TIME(hour) > '16:00:00';
